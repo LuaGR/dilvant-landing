@@ -15,5 +15,25 @@ export class RecipesComponent {
       title: 'Postres Peruanos',
       image: '/recipes/postres-peruanos.webp',
     },
+    {
+      id: 2,
+      title: 'Causa Rellena',
+      image: '/recipes/causa-rellena.webp',
+    },
+    {
+      id: 3,
+      title: 'Aji de Gallina',
+      image: '/recipes/lomo-saltado-recipe.webp',
+    },
+    {
+      id: 4,
+      title: 'Pisco Sour',
+      image: '/recipes/pisco-sour.webp',
+    },
+    {
+      id: 5,
+      title: 'Ceviche',
+      image: '/recipes/ceviche.webp',
+    }
   ];
 }
