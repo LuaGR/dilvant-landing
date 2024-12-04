@@ -1,0 +1,9 @@
+app-recipes {
+  width: 100%;
+  height: 586px;
+  padding: 80px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

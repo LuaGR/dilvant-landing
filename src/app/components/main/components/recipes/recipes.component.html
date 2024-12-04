@@ -1,0 +1,21 @@
+<header>
+  <div>
+    <h4>Recetas Peruanas Populares</h4>
+  </div>
+  <div>
+    <app-button
+      text="Explora Todos los Platos ->"
+      [fontColor]="'var(--primary-color)'"
+    ></app-button>
+  </div>
+</header>
+<main>
+  <ul class="recipes">
+    @for(recipe of recipes; track recipe.id){
+    <li class="recipe">
+      <span>{{ recipe.title }}</span>
+      <img [src]="recipe.image" alt="" />
+    </li>
+    }
+  </ul>
+</main>

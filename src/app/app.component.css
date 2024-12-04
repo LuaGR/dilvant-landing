@@ -1,0 +1,10 @@
+app-header {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0 80px 80px 80px;
+  background: var(--bg-black);
+  clip-path: polygon(100% 0, 100% 15%, 83% 80%, 0 100%, 0 0);
+}

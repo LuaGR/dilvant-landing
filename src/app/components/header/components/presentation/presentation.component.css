@@ -1,0 +1,29 @@
+.presentation-container {
+  width: 100%;
+  height: 599px;
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.left-container {
+  width: 634px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+h2 {
+  font-size: 56px;
+}
+
+p {
+  font-size: 24px
+}
+
+.lomo {
+  width: 566px;
+  height: 460px;
+  border-radius: 62px;
+}
