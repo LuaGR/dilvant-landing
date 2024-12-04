@@ -16,7 +16,7 @@ header {
 }
 
 h4 {
-  color: var(--bg-black);
+  color: var(--title-black);
   font-size: 40px;
   margin: 0;
 }

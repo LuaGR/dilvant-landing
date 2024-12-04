@@ -5,6 +5,7 @@ app-header, app-main {
   align-items: center;
   box-sizing: border-box
 }
+
 app-header {
   height: 700px;
   background: var(--bg-black);

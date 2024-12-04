@@ -1,10 +1,17 @@
-app-recipes {
+app-recipes, app-seasonal-dish {
   width: 100%;
-  height: 586px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   gap: 24px;
   justify-content: center;
   align-items: center;
+}
+
+app-recipes {
+  height: 586px;
+}
+
+app-seasonal-dish {
+  background: var(--bg-black);
 }
