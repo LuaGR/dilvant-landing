@@ -1,0 +1,44 @@
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.top-section {
+  width: 100%;
+  max-width: 1280px;
+  padding-block: 48px;
+  border-bottom: 1px solid #334155;
+  display: flex;
+  gap: 48px;
+}
+
+.bottom-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-block: 24px;
+}
+
+div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+p {
+  font-weight: 400;
+  color: var(--smoky-text);
+}
+
+span {
+  font-weight: 700;
+}
