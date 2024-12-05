@@ -34,3 +34,10 @@ p {
   height: auto; /* Mantiene las proporciones de la imagen */
   border-radius: 62px;
 }
+
+@media (max-width: 768px) {
+
+  .presentation-container {
+    flex-direction: column;
+  }
+}

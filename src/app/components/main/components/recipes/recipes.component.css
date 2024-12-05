@@ -64,3 +64,11 @@ main {
 .svg {
   vertical-align: middle;
 }
+
+
+@media (max-width: 768px) {
+
+  .recipes, header {
+    flex-direction: column;
+  }
+}
