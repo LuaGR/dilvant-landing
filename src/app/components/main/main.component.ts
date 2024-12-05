@@ -1,9 +1,11 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { RecipesComponent } from './components/recipes/recipes.component';
-import { SeasonalDishComponent } from './components/seasonal-dish/seasonal-dish.component';
-import { FavoriteDishComponent } from './components/favorite-dish/favorite-dish.component';
-import { UniqueExperienceComponent } from './components/unique-experience/unique-experience.component';
-import { ReservationComponent } from './components/reservation/reservation.component';
+import {
+  RecipesComponent,
+  SeasonalDishComponent,
+  FavoriteDishComponent,
+  UniqueExperienceComponent,
+  ReservationComponent,
+} from './components';
 
 @Component({
   selector: 'app-main',

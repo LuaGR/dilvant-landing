@@ -1,6 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { PresentationComponent } from './components/presentation/presentation.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
+import { NavbarComponent, PresentationComponent } from './components';
 
 @Component({
   selector: 'app-header',
