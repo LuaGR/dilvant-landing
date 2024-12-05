@@ -24,3 +24,6 @@ app-unique-experience, app-reservation{
 app-favorite-dish {
   color: var(--title-black);
 }
+app-reservation {
+  padding: 160px 80px;
+}
