@@ -3,6 +3,9 @@
   &:nth-of-type(2) {
     background: var(--bg-black);
   }
+  &:nth-of-type(4) {
+    background: var(--bg-red);
+  }
 }
 app-recipes, app-seasonal-dish, app-favorite-dish,
 app-unique-experience, app-reservation{

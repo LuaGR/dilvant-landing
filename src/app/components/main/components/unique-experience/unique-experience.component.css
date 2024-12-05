@@ -1,0 +1,41 @@
+
+.section-seasonal-dish {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  gap: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-container {
+  max-width: 764px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+h2 {
+  font-size: 56px;
+  margin: 0;
+}
+
+p {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.right-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.image-food {
+  width: 100%;
+  height: auto;
+  max-width: 436px;
+  max-height: 575px;
+  border-radius: 50px;
+}
