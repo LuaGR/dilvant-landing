@@ -7,6 +7,15 @@ app-header, app-main, app-footer {
   box-sizing: border-box
 }
 
-app-header, app-footer {
+app-header {
+  background-image: url('/shape.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+app-footer {
   background: var(--bg-black);
 }
+
+

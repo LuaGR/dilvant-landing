@@ -7,7 +7,10 @@
     background: var(--bg-red);
   }
   &:nth-of-type(5) {
-    background: var(--bg-black);
+    background-image: url(/shape-bottom.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
 app-recipes, app-seasonal-dish, app-favorite-dish,
