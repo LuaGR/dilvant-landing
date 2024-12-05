@@ -1,18 +1,18 @@
-<section class="section-recipes">
+<section class="section-favorite-dish">
 <header>
   <div>
     <h2>¿Cómo funciona? Elige tu plato favorito.</h2>
   </div>
 </header>
 <main>
-  <ul class="recipes">
+  <ul class="items">
     @for(item of items; track item.id){
-    <li class="recipe">
+    <li class="item">
         <div class="image-container">
-      <img class="recipe-image" [src]="item.image" [alt]="item.alt" />
+      <img class="item-image" [src]="item.image" [alt]="item.alt" />
         </div>
-      <div class="recipe-title-container">
-        <p class="recipe-title">{{item.text}}</p>
+      <div class="item-text-container">
+        <p class="item-text">{{item.text}}</p>
       </div>
     </li>
     }

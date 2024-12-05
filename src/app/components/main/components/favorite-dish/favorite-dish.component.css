@@ -1,6 +1,6 @@
 
 
-.section-recipes {
+.section-favorite-dish {
   width: 100%;
   max-width: 1280px;
   display: flex;
@@ -22,7 +22,7 @@ main {
   width: 100%;
 }
 
-.recipes {
+.items {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -31,7 +31,7 @@ main {
   margin: 0;
 }
 
-.recipe {
+.item {
   max-width: 373.33px;
   width: 100%;
   min-height: 252px;
@@ -52,20 +52,20 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-.recipe-image {
+.item-image {
   max-width: 64px;
   height: auto;
   border-radius: 76px;
 }
 
-.recipe-title-container {
+.item-text-container {
   display: flex;
   align-items: start;
   height: 108px;
   width: 309.33px;
 }
 
-.recipe-title {
+.item-text {
   font-size: 20px;
   line-height: 36px;
   text-align: center;
