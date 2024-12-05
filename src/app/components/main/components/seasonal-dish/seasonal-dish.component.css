@@ -5,19 +5,10 @@
   gap: 80px;
   justify-content: space-between;
   align-items: center;
-  padding: 80px;
-}
-.presentation-container {
-  width: 100%;
-  height: 599px;
-  display: flex;
-  gap: 80px;
-  justify-content: space-between;
-  padding-top: 40px;
 }
 
 .left-container {
-  width: 647px;
+  max-width: 647px;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -33,8 +24,17 @@ p {
   line-height: 36px;
 }
 
-.lomo {
-  width: 553px;
-  height: 347px;
+.right-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.image-food {
+  width: 100%;
+  height: auto;
+  max-width: 553px;
+  max-height: 347px;
   border-radius: 63px;
 }

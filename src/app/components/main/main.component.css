@@ -1,11 +1,7 @@
-main {
-  width: 100%;
-    background: var(--bg-black);
-}
 .section-container {
-  padding: 80px;
-
+  width: 100%;
   &:nth-of-type(2) {
+    background: var(--bg-black);
   }
 }
 app-recipes, app-seasonal-dish {
@@ -15,6 +11,7 @@ app-recipes, app-seasonal-dish {
   gap: 24px;
   justify-content: center;
   align-items: center;
+  padding: 80px;
 }
 
 app-seasonal-dish {
