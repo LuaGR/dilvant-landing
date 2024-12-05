@@ -51,10 +51,7 @@ a {
 }
 
 @media (max-width: 991px) {
-  .nav-container {
-    display: none;
-  }
-
+  .nav-container,
   .button-container {
     display: none;
   }
