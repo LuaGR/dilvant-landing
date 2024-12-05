@@ -1,1 +1,21 @@
-<p>favorite-dish works!</p>
+<section class="section-recipes">
+<header>
+  <div>
+    <h2>¿Cómo funciona? Elige tu plato favorito.</h2>
+  </div>
+</header>
+<main>
+  <ul class="recipes">
+    @for(item of items; track item.id){
+    <li class="recipe">
+        <div class="image-container">
+      <img class="recipe-image" [src]="item.image" [alt]="item.alt" />
+        </div>
+      <div class="recipe-title-container">
+        <p class="recipe-title">{{item.text}}</p>
+      </div>
+    </li>
+    }
+  </ul>
+</main>
+</section>

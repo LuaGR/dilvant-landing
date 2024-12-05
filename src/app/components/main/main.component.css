@@ -4,7 +4,8 @@
     background: var(--bg-black);
   }
 }
-app-recipes, app-seasonal-dish {
+app-recipes, app-seasonal-dish, app-favorite-dish,
+app-unique-experience, app-reservation{
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -14,5 +15,6 @@ app-recipes, app-seasonal-dish {
   padding: 80px;
 }
 
-app-seasonal-dish {
+app-favorite-dish {
+  color: var(--title-black);
 }
