@@ -55,3 +55,9 @@ a {
 }
 
 
+@media (max-width: 768px) {
+
+  app-navbar, app-presentation {
+    padding-inline: 30px;
+  }
+}

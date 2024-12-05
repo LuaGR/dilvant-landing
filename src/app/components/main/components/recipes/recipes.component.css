@@ -27,8 +27,9 @@ main {
 
 .recipes {
   width: 100%;
-  display: flex;
+  display: grid;
   justify-content: space-between;
+  grid-template-columns: repeat(auto-fit, minmax(236.8px, 1fr));
   gap: 24px;
   padding: 0;
   margin: 0;
@@ -43,7 +44,6 @@ main {
   background-position: center;
 
 }
-
 
 .recipe-title-container {
   padding: 24px 24px 64px 24px;
@@ -68,8 +68,21 @@ main {
 
 @media (max-width: 768px) {
 
-  .recipes, header {
+  header {
     flex-direction: column;
     align-items: center;
+    gap: 25px;
   }
+
+  h4 {
+    text-align: center;
+  }
+
+  .recipes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
 }

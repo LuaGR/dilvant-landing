@@ -10,6 +10,3 @@ app-header, app-main, app-footer {
 app-header, app-footer {
   background: var(--bg-black);
 }
-app-footer {
-  padding-inline: 80px;
-}

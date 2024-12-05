@@ -1,4 +1,11 @@
-footer {
+.section-container {
+  width: 100%;
+}
+.external-container {
+    padding-inline: 80px;
+
+}
+.inner-container {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -41,4 +48,11 @@ p {
 
 span {
   font-weight: 700;
+}
+
+@media (max-width: 768px) {
+
+  .top-section {
+    flex-direction: column;
+  }
 }

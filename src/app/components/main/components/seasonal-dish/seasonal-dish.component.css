@@ -38,7 +38,7 @@ p {
   max-height: 347px;
   border-radius: 63px;
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
 
   .section-seasonal-dish {
     flex-direction: column;

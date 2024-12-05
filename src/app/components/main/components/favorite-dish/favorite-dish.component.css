@@ -24,11 +24,14 @@ main {
 
 .items {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
+  max-width: 1280px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
   gap: 80px;
   padding: 0;
   margin: 0;
+  grid-template-columns: repeat(auto-fit, minmax(373px, 1fr));
 }
 
 .item {
@@ -70,9 +73,10 @@ h2 {
   line-height: 36px;
   text-align: center;
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
 
   .items {
+    display: flex;
     flex-direction: column;
   }
 }

@@ -27,3 +27,15 @@ app-favorite-dish {
 app-reservation {
   padding: 160px 80px;
 }
+
+
+@media (max-width: 768px) {
+
+  .items {
+    flex-direction: column;
+  }
+app-recipes, app-seasonal-dish, app-favorite-dish,
+app-unique-experience, app-reservation {
+    padding: 80px 30px;
+  }
+}

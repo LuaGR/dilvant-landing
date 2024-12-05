@@ -52,7 +52,7 @@ a {
 }
 
 /* Estilos responsivos */
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   .nav-container {
     display: none;
   }
