@@ -1,6 +1,15 @@
+main {
+  width: 100%;
+    background: var(--bg-black);
+}
+.section-container {
+  padding: 80px;
+
+  &:nth-of-type(2) {
+  }
+}
 app-recipes, app-seasonal-dish {
   width: 100%;
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -8,10 +17,5 @@ app-recipes, app-seasonal-dish {
   align-items: center;
 }
 
-app-recipes {
-  height: 586px;
-}
-
 app-seasonal-dish {
-  background: var(--bg-black);
 }

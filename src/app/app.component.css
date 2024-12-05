@@ -1,5 +1,6 @@
 app-header, app-main {
   width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,7 +8,6 @@ app-header, app-main {
 }
 
 app-header {
-  height: 700px;
   background: var(--bg-black);
-  clip-path: polygon(100% 0, 100% 15%, 83% 80%, 0 100%, 0 0);
+
 }

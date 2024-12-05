@@ -8,9 +8,18 @@
   --bg-smoky-white: #f1f5f9;
   --title-black: #0F172A;
 }
+* {
+  box-sizing: inherit;
+}
 
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
 body {
   margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   color: var(--bg-white);
 }

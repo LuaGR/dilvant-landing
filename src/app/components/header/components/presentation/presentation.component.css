@@ -1,6 +1,5 @@
 .presentation-container {
   width: 100%;
-  height: 599px;
   display: flex;
   gap: 80px;
   justify-content: space-between;
@@ -11,6 +10,7 @@
   width: 634px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 32px;
 }
 
@@ -22,8 +22,15 @@ p {
   font-size: 24px
 }
 
-.lomo {
-  width: 566px;
-  height: 460px;
+.right-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.image-food {
+  width: 100%; /* Hace que la imagen ocupe el 100% del ancho de su contenedor */
+  max-width: 566px; /* Define un tamaño máximo para la imagen */
+  height: auto; /* Mantiene las proporciones de la imagen */
   border-radius: 62px;
 }
