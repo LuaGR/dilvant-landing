@@ -42,4 +42,8 @@ p {
   .section-seasonal-dish {
     flex-direction: column;
   }
+
+  .left-container {
+    gap: 48px;
+  }
 }

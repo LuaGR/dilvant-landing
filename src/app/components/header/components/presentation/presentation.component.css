@@ -15,10 +15,12 @@
 
 h2 {
   font-size: 56px;
+  line-height: 61.6px;
 }
 
 p {
   font-size: 24px;
+  line-height: 38.4px;
 }
 
 .right-container {
@@ -40,6 +42,7 @@ p {
   }
   .left-container {
     align-items: center;
+    gap: 48px;
   }
   h2,
   p {
