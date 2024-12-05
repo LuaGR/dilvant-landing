@@ -35,8 +35,6 @@ main {
 }
 
 .item {
-  max-width: 373.33px;
-  width: 100%;
   min-height: 252px;
   border-radius: 10px;
   border: 5px solid var(--bg-black);
@@ -45,6 +43,7 @@ main {
   justify-content: center;
   gap: 16px;
   padding: 32px;
+  flex-wrap: wrap;
 }
 
 h2 {

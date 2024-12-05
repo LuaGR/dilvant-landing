@@ -60,4 +60,9 @@ a {
   app-navbar, app-presentation {
     padding-inline: 30px;
   }
+
+  app-presentation {
+    padding-block: 30px;
+  }
+
 }
