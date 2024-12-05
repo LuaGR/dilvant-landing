@@ -1,3 +1,6 @@
-<button [style]="{ 'background-color': backgroundColor(), 'color': fontColor() }" class="custom-button">
+<button [style]="{ 'background-color': backgroundColor(),
+  'color': fontColor(), 'padding': padding(), 'font-size': fontSize(), 'font-weight': fontWeight(),
+  'border': border()
+  }" class="custom-button">
   {{ text() }}
 </button>
