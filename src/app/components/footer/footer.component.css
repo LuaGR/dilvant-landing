@@ -11,6 +11,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 0;
 }
 
 .top-section {
@@ -18,7 +19,8 @@
   max-width: 1280px;
   padding-block: 48px;
   border-bottom: 1px solid #334155;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 48px;
 }
 
@@ -50,9 +52,9 @@ span {
   font-weight: 700;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
 
-  .top-section {
-    flex-direction: column;
+  .external-container {
+    padding-inline: 30px;
   }
 }
