@@ -3,11 +3,10 @@
   display: flex;
   gap: 80px;
   justify-content: space-between;
-  padding-top: 40px;
 }
 
 .left-container {
-  width: 634px;
+  max-width: 634px;
   display: flex;
   flex-direction: column;
   justify-content: center;
