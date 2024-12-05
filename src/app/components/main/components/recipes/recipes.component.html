@@ -17,11 +17,10 @@
 <main>
   <ul class="recipes">
     @for(recipe of recipes; track recipe.id){
-    <li class="recipe">
+    <li class="recipe" [style.backgroundImage]="'url(' + recipe.image + ')'">
       <div class="recipe-title-container">
         <h6 class="recipe-title">{{recipe.title}}</h6>
       </div>
-      <img class="recipe-image" [src]="recipe.image" [alt]="recipe.title" />
     </li>
     }
   </ul>
