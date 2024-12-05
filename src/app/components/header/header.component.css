@@ -4,7 +4,8 @@
   justify-content: center;
 }
 
-app-navbar, app-presentation {
+app-navbar,
+app-presentation {
   width: 100%;
   max-width: 1440px;
   display: flex;
@@ -16,53 +17,13 @@ app-navbar {
   padding-block: 0;
 }
 
-.navbar-container {
-  width: 100%;
-  height: auto;
-  padding-block: 24px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: var(--bg-black);
-}
-
-.logo {
-  font-weight: 800;
-  font-size: 48px;
-  margin: 0;
-}
-
-ul {
-  display: flex;
-  align-items: center;
-  gap: 48px;
-  height: 35px;
-  margin: 0;
-}
-
-li {
-  list-style-type: none;
-  padding-block: 12px;
-
-  &:hover {
-    border-bottom: 2px solid;
-  }
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-
 @media (max-width: 768px) {
-
-  app-navbar, app-presentation {
+  app-navbar,
+  app-presentation {
     padding-inline: 30px;
   }
 
   app-presentation {
     padding-block: 30px;
   }
-
 }

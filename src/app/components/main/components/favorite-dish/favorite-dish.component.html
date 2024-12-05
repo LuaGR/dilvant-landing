@@ -1,21 +1,27 @@
 <section class="section-favorite-dish">
-<header>
-  <div>
-    <h2>¿Cómo funciona? Elige tu plato favorito.</h2>
-  </div>
-</header>
-<main>
-  <ul class="items">
-    @for(item of items; track item.id){
-    <li class="item">
+  <header>
+    <div>
+      <h2>¿Cómo funciona? Elige tu plato favorito.</h2>
+    </div>
+  </header>
+  <main>
+    <ul class="items">
+      @for(item of items; track item.id){
+      <li class="item">
         <div class="image-container">
-      <img class="item-image" [src]="item.image" [alt]="item.alt" />
+          <img
+            class="item-image"
+            [src]="item.image"
+            [alt]="item.alt"
+            width="64"
+            height="64"
+          />
         </div>
-      <div class="item-text-container">
-        <p class="item-text">{{item.text}}</p>
-      </div>
-    </li>
-    }
-  </ul>
-</main>
+        <div class="item-text-container">
+          <p class="item-text">{{ item.text }}</p>
+        </div>
+      </li>
+      }
+    </ul>
+  </main>
 </section>

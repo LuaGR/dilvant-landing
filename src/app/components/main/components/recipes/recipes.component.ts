@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { ButtonComponent } from '../../../button/button.component';
 
 @Component({
@@ -7,9 +7,10 @@ import { ButtonComponent } from '../../../button/button.component';
   imports: [ButtonComponent],
   templateUrl: './recipes.component.html',
   styleUrl: './recipes.component.css',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class RecipesComponent {
-  recipes = [
+  protected recipes = [
     {
       id: 1,
       title: 'Postres Peruanos',
@@ -34,6 +35,6 @@ export class RecipesComponent {
       id: 5,
       title: 'Ceviche',
       image: '/recipes/ceviche.webp',
-    }
+    },
   ];
 }

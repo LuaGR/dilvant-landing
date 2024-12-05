@@ -1,13 +1,11 @@
-import { Component } from '@angular/core';
-import { ButtonComponent } from '../../../button/button.component';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
   selector: 'app-seasonal-dish',
   standalone: true,
-  imports: [ButtonComponent],
+  imports: [],
   templateUrl: './seasonal-dish.component.html',
-  styleUrl: './seasonal-dish.component.css'
+  styleUrl: './seasonal-dish.component.css',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SeasonalDishComponent {
-
-}
+export class SeasonalDishComponent {}

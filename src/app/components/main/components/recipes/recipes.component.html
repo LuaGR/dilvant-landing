@@ -1,28 +1,29 @@
 <section class="section-recipes">
-<header>
-  <div>
-    <h4>Recetas Peruanas Populares</h4>
-  </div>
-  <div class="button-container">
-    <app-button
-      text="Explora Todos los Platos"
-      [fontColor]="'var(--primary-color)'"
-      [backgroundColor]="'transparent'"
-      [border]="'none'"
-      [fontWeight]="'500'"
-      [padding] ="'12px 0 12px 12px'"
-    ><img src="/arrow-right.svg" width="24" height="24" alt="arrow-right"></app-button>
-  </div>
-</header>
-<main>
-  <ul class="recipes">
-    @for(recipe of recipes; track recipe.id){
-    <li class="recipe" [style.backgroundImage]="'url(' + recipe.image + ')'">
-      <div class="recipe-title-container">
-        <h6 class="recipe-title">{{recipe.title}}</h6>
-      </div>
-    </li>
-    }
-  </ul>
-</main>
+  <header>
+    <div>
+      <h4>Recetas Peruanas Populares</h4>
+    </div>
+    <div class="button-container">
+      <app-button
+        text="Explora Todos los Platos"
+        [fontColor]="'var(--primary-color)'"
+        [backgroundColor]="'transparent'"
+        [border]="'none'"
+        [fontWeight]="'500'"
+        [padding]="'12px 0 12px 12px'"
+        ><img src="/arrow-right.svg" width="24" height="24" alt="arrow-right"
+      /></app-button>
+    </div>
+  </header>
+  <main>
+    <ul class="recipes">
+      @for(recipe of recipes; track recipe.id){
+      <li class="recipe" [style.backgroundImage]="'url(' + recipe.image + ')'">
+        <div class="recipe-title-container">
+          <h6 class="recipe-title">{{ recipe.title }}</h6>
+        </div>
+      </li>
+      }
+    </ul>
+  </main>
 </section>

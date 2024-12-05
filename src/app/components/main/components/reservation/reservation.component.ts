@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { ButtonComponent } from '../../../button/button.component';
 
 @Component({
@@ -6,8 +6,7 @@ import { ButtonComponent } from '../../../button/button.component';
   standalone: true,
   imports: [ButtonComponent],
   templateUrl: './reservation.component.html',
-  styleUrl: './reservation.component.css'
+  styleUrl: './reservation.component.css',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ReservationComponent {
-
-}
+export class ReservationComponent {}

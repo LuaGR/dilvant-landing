@@ -7,8 +7,6 @@ import { ButtonComponent } from '../../../button/button.component';
   imports: [ButtonComponent],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css',
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class NavbarComponent {
-
-}
+export class NavbarComponent {}

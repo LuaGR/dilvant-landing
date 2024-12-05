@@ -1,5 +1,3 @@
-
-
 .section-favorite-dish {
   width: 100%;
   max-width: 1280px;
@@ -73,7 +71,6 @@ h2 {
   text-align: center;
 }
 @media (max-width: 991px) {
-
   .items {
     display: flex;
     flex-direction: column;

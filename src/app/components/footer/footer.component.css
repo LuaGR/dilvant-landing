@@ -2,8 +2,7 @@
   width: 100%;
 }
 .external-container {
-    padding-inline: 80px;
-
+  padding-inline: 80px;
 }
 .inner-container {
   width: 100%;
@@ -53,7 +52,6 @@ span {
 }
 
 @media (max-width: 991px) {
-
   .external-container {
     padding-inline: 30px;
   }

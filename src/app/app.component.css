@@ -1,14 +1,16 @@
-app-header, app-main, app-footer {
+app-header,
+app-main,
+app-footer {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 app-header {
-  background-image: url('/shape.webp');
+  background-image: url("/shape.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -17,5 +19,3 @@ app-header {
 app-footer {
   background: var(--bg-black);
 }
-
-

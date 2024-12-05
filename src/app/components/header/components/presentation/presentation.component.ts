@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { ButtonComponent } from '../../../button/button.component';
 
 @Component({
@@ -6,8 +6,7 @@ import { ButtonComponent } from '../../../button/button.component';
   standalone: true,
   imports: [ButtonComponent],
   templateUrl: './presentation.component.html',
-  styleUrl: './presentation.component.css'
+  styleUrl: './presentation.component.css',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class PresentationComponent {
-
-}
+export class PresentationComponent {}
